@@ -34,7 +34,7 @@ int main(){
     std::cout<< "main just started and xyz are...\n" << "x: " << x << "\ty: " << y << "\tz: " << z << std::endl;
 
     std::cout << "calling sum3ints with x,x,y" << std::endl;
-    int x = sum3ints(x,x,y);
+    x = sum3ints(x,x,y);
     std::cout << "x is now " << x << std::endl;
     std::cout << "calling vsum3ints with xyz" << std::endl;
     vsum3ints(x,y,z); //this has the side effect of priinting to screen, but since it did not return anything the sum cannot be used later
