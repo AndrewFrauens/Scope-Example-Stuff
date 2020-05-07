@@ -1,0 +1,49 @@
+main just started and xyz are...
+x: 10	y: 40	z: -3
+calling sum3ints with x,x,y
+++++++++
+we have entered sum3ints with the arguments
+a: 10	b: 10	c: 40
+x = 60
+we are leaving  sum3ints with the arguments
+a: 10	b: 10	c: 40
+--------
+x is now 60
+calling vsum3ints with xyz
+++++++++
+we have entered vsum3ints with the arguments
+a: 60	b: 40	c: -3
+x = 97
+we are leaving  vsum3ints with the arguments
+a: 60	b: 40	c: -3
+--------
+Calling sum3ints in a compound way
+++++++++
+we have entered sum3ints with the arguments
+a: 60	b: -3	c: 40
+x = 97
+we are leaving  sum3ints with the arguments
+a: 60	b: -3	c: 40
+--------
+++++++++
+we have entered sum3ints with the arguments
+a: 40	b: -3	c: -3
+x = 34
+we are leaving  sum3ints with the arguments
+a: 40	b: -3	c: -3
+--------
+++++++++
+we have entered sum3ints with the arguments
+a: 40	b: 40	c: -3
+x = 77
+we are leaving  sum3ints with the arguments
+a: 40	b: 40	c: -3
+--------
+++++++++
+we have entered sum3ints with the arguments
+a: 77	b: 34	c: 97
+x = 208
+we are leaving  sum3ints with the arguments
+a: 77	b: 34	c: 97
+--------
+x is now 208 in main.
