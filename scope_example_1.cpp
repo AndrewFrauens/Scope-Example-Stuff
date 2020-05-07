@@ -20,7 +20,6 @@ void vsum3ints(int a, int b, int c){
     std::cout << "we are leaving  vsum3ints with the arguments\na: " << a <<"\tb: " << b << "\tc: " << c << std::endl;
     std::cout << "--------" << std::endl;
     return; 
-
 }
 
 
@@ -41,5 +40,5 @@ int main(){
 
     std::cout << "Calling sum3ints in a compound way" << std::endl;
     x = sum3ints(sum3ints(y,y,z),sum3ints(y,z,z),sum3ints(x,z,y));
-
+    std::cout << "x is now " << x << " in main." << std::endl;
 }
